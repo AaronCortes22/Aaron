@@ -1,0 +1,23 @@
+CONTADOR CON WHILE
+//contador del 1 al 100//
+
+main ()
+{
+    i = 1;
+    x = i; 
+
+    DO
+    {
+        printf(x);
+        x++
+    } WHILE (x<101) //mientras que lleguemos al 101// 
+    printf ("adios")
+}
+
+1  1<101   1+1=2
+2
+3
+4
+99  99<101 99+1=100
+100  100<101 100
+101   101<101  //ya no se cumple//
